@@ -84,7 +84,6 @@ namespace Pyramid
 
     internal class Path
     {
-
         internal Path(Path path) { Values = path.Values.ToList(); }
         internal Path() { Values = new List<int>(); }
         public List<int> Values { get; private set; }
